@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Panel Example</title>
+		<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.js" ></script>
+		<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.3.min.js" ></script>
+		<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.3.min.js" ></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@holoviz/panel@0.14.4/dist/panel.min.js" ></script>
+		<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"  />
+		<script defer src="https://pyscript.net/releases/2023.03.1/pyscript.js"></script>
+	</head>
+<body>
+
+
+<!-- # ////////////////////////////////////////////////////////////////// / -->
+<py-config>
+
+terminal = false
+
+packages=[
+	"numpy",
+	"pandas",
+	"requests",
+	"xmltodict",
+	"xyzservices",
+	"pyodide-http",
+	"colorcet",
+	"panel==0.14.4",
+	"https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl",
+]
+[[fetch]]
+from = '/src/openvisuspy/'
+to_folder = '/home/pyodide/openvisuspy/'
+files = [
+	"backend.py",
+	"backend_py.py",
+	"backend_cpp.py",
+	"app.py",
+	"canvas.py",
+	"slice.py",
+	"slices.py",
+	"utils.py",
+	"widgets.py",
+	"__init__.py",
+]
+</py-config>
+
+<!-- where the app is displayed-->
+<div id="my_app"></div>
+
+<!-- # ////////////////////////////////////////////////////////////////// / -->
+<py-script>
+
+import os,sys,datetime,logging,time,pyodide_http
+
+from openvisuspy import *
+# SetupLogger()
+pyodide_http.patch_all() 
+
+import panel as pn
+pn.extension(sizing_mode='stretch_both')
+
+url="https://atlantis.sci.utah.edu/mod_visus?dataset=david_subsampled&cached=1"
+view=Slices(is_panel=True)
+view.setDataset(url)
+view.setPalette("Greys256") 
+view.setPaletteRange([0,255])
+app=view.getMainLayout()
+app.servable(target='my_app')
+
+</py-script>
+
+<!--  <py-terminal/> -->
+<!--  <py-repl/>     -->
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/geotiled.egg-info/PKG-INFO
+src/geotiled.egg-info/SOURCES.txt
+src/geotiled.egg-info/dependency_links.txt
+src/geotiled.egg-info/requires.txt
+src/geotiled.egg-info/top_level.txt
