@@ -22,7 +22,7 @@ jobs:
         run: |
           docker buildx create --use
           docker buildx build \
-            --file ./Dockerfile \
+            --file ./hands-on/Dockerfile \
             --tag ${{ secrets.DOCKERHUB_ORG }}/somospie_openvisus:acm_tutorial_2024 \
             --push .
 
