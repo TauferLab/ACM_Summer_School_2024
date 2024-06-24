@@ -23,7 +23,7 @@ jobs:
         with:
           context: hands-on
           push: true
-          file: ./Dockerfile
+          file: ./hands-on/Dockerfile
           tags: ${{ secrets.DOCKERHUB_ORG }}/somospie_openvisus:acmtutorial
 
     env:
