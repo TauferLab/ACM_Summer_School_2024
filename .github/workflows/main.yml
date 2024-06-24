@@ -21,8 +21,9 @@ jobs:
       - name: Build and push register app
         uses: docker/build-push-action@v3
         with:
+          context: hands-on
           push: true
-          file: ./hands-on/Dockerfile
+          file: ./Dockerfile
           tags: ${{ secrets.DOCKERHUB_ORG }}/somospie_openvisus:acmtutorial
 
     env:
