@@ -23,7 +23,7 @@ jobs:
         with:
           push: true
           file: ./hands-on/Dockerfile
-          tags: ${{ secrets.DOCKERHUB_ORG }}/somospie_openvisus:acm-tutorial-2024
+          tags: ${{ secrets.DOCKERHUB_ORG }}/somospie_openvisus:acmtutorial
 
     env:
       DOCKER_CLI_EXPERIMENTAL: enabled
