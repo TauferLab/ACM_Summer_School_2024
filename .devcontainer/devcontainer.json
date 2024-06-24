@@ -1,6 +1,6 @@
 {
   "name": "NSDF Tutorial",
-  "image": "globalcomputinglab/somospie_openvisus:tutorial",
+  "image": "globalcomputinglab/somospie_openvisus:acm_tutorial_2024",
   "containerEnv": {
     "PROJ_LIB": "/opt/conda/envs/NSDF-Tutorial/share/proj"
   },
