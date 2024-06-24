@@ -112,11 +112,11 @@ Use your GitHub account to run this tutorial with GitHub Codespaces
 
 Please click the next button to open in GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nsdf-fabric/NSDF_Tutorial)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/tauferlab/ACM_summer_school_2024)
 
 Now follow these steps to set up your virtual environment using GitHub codespaces:
 
-Verify that you are using the `main` branch, the repository name `nsdf-fabric/NSDF_Tutorial` and the dev container configuration `NSDF Tutorial`. Then click on `Create Codespace`
+Verify that you are using the `main` branch, the repository name `tauferlab/ACM_summer_school_2024` and the dev container configuration `NSDF Tutorial`. Then click on `Create Codespace`
 
 <p align="center">
     <img src="files/docs/codespaces.png" width="800">
