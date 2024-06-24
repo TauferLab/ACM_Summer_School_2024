@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  tutorial:
+    container_name: tutorial
+    hostname: openvisus-tutorial
+    image: globalcomputinglab/somospie_openvisus:tutorial
+    pull_policy: always
+    platform: linux/amd64
+    build:
+      context: ./
+    ports:
+      - "127.0.0.1:5000:5000"
+      - "127.0.0.1:8989:8989"

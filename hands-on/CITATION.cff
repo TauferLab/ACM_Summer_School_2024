@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Martinez 
+    given-names: Heberth 
+    orcid: https://orcid.org/0000-0001-6163-3520
+  - family-names: Panta
+    given-names: Aashish
+    orcid: https://orcid.org/0009-0001-5843-2098
+  - family-names: Olaya
+    given-names: Paula
+    orcid: https://orcid.org/0000-0003-0258-6861
+  - family-names: Laboy
+    given-names: Gabriel
+    orcid: https://orcid.org/0009-0004-1538-5035
+  - family-names: Ashworth
+    given-names: Jay
+    orcid: https://orcid.org/0009-0006-8395-3529
+  - family-names: Scorzelly
+    given-names: Giorgio
+    orcid: https://orcid.org/0000-0002-6263-2738
+  - family-names: Marquez
+    given-names: Jack
+    orcid: https://orcid.org/0000-0002-2673-3507
+  - family-names: Pascucci
+    given-names: Valerio
+    orcid: https://orcid.org/0000-0002-8877-2042
+  - family-names: Taufer
+    given-names: Michela
+    orcid: https://orcid.org/0000-0002-0031-6377
+title: "Tutorial: Using NSDF for End-to-End Analysis of Scientific Data"
+version: 1.0.0
+identifiers:
+  - type: doi
+    value: 10.5281/ZENODO.10794642
+date-released: 2024-02-24
