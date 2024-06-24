@@ -1,0 +1,16 @@
+
+[project]
+name = "openvisuspy"
+version = "1.0.28"
+authors = [{ name="OpenVisus developers"},]
+description = "openvisuspy"
+readme = "README.md"
+requires-python = ">=3.6"
+
+[project.urls]
+"Homepage" = "https://github.com/sci-visus/openvisuspy"
+"Bug Tracker" = "https://github.com/sci-visus/openvisuspy"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
