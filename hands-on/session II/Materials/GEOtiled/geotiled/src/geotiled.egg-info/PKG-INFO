@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: geotiled
+Version: 0.0.1
+Summary: Package with all of the required functions and classes for GEOtiled and its associated workflows.
+Home-page: https://github.com/TauferLab/GEOtiled
+Author: Camila Roa and compiled by Jay Ashworth of GCLab
+Author-email: taufer@utk.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: geopandas
+Requires-Dist: GDAL
+Requires-Dist: pandas
+
+# GEOtiled Library!!!
+
+Package with all of the required functions and classes for GEOtiled.

@@ -1,0 +1,27 @@
+(version)
+6
+(box)
+0 6453 0 1261
+(physic_box)
+-90.131 -82.0775 34.3022 37.3255
+(fields)
+elevation float32 default_compression(zip) default_layout() default_value(0) min(0) max(0) 
++ hillshading uint8 default_compression(zip) default_layout() default_value(0) min(0) max(0) 
++ aspect float32 default_compression(zip) default_layout() default_value(0) min(0) max(0) 
++ slope float32 default_compression(zip) default_layout() default_value(0) min(0) max(0) 
+(bits)
+V010101010101010101010100
+(bitsperblock)
+20
+(blocksperfile)
+1
+(interleave block)
+0
+(time)
+0 0 %00000d/
+(filename_template)
+./Tennessee_terrain_parameters/%04x.bin
+(missing_blocks)
+0
+(arco)
+4194304

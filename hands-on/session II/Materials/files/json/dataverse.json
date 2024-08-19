@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://dataverse.harvard.edu/api/access/datafile/9845787",
+    "name_file": "Materials/files/tif_files/hillshading.tif"
+  },
+  {
+    "url": "https://dataverse.harvard.edu/api/access/datafile/9845784",
+    "name_file": "Materials/files/tif_files/elevation.tif"
+  },
+  {
+    "url": "https://dataverse.harvard.edu/api/access/datafile/9845790",
+    "name_file": "Materials/files/tif_files/slope.tif"
+  },
+  {
+    "url": "https://dataverse.harvard.edu/api/access/datafile/9845785",
+    "name_file": "Materials/files/tif_files/aspect.tif"
+  }
+]

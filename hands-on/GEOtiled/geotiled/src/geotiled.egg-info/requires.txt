@@ -1,7 +1,0 @@
-GDAL
-geopandas
-grass-session
-matplotlib
-numpy
-pandas
-tqdm
