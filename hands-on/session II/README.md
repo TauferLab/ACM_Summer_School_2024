@@ -1,7 +1,7 @@
 # **NSDF Tutorial: Using NSDF for End-to-End Analysis of Scientific Data**
 
 <p align="center">
-    <img src="files/docs/Logos.png" width="450">
+    <img src="Materials/files/docs/Logos.png" width="450">
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@ Throughout the tutorial, you will learn how to:
 The slides introducing this tutorial can be downloaded [here](https://zenodo.org/records/10794642). This tutorial follows the steps in Figure 1.
 
 <p align="center">
-    <img src="files/docs/arq.png" width="800">
+    <img src="Materials/files/docs/arq.png" width="800">
     <br>
     <em>Figure 1. Workflow diagram illustrating the tutorial's process of data collection, transformation, analysis, and storage using the SOMOSPIE engine and NSDF services.</em>
 </p>
@@ -113,14 +113,14 @@ Use your GitHub account to run this tutorial with GitHub Codespaces
 
 Please click the next button to open in GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/TauferLab/ACM_Summer_School_2024?devcontainer_path=.devcontainer/session+II/devcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/nsdf-fabric/Tutorial_2024_IEEE_VIS?devcontainer_path=.devcontainer/session+II/devcontainer.json)
 
 Now follow these steps to set up your virtual environment using GitHub codespaces:
 
-Verify that you are using the `main` branch, the repository name `TauferLab/ACM_Summer_School_2024` and the dev container configuration `NSDF Tutorial - Session II`. Then click on `Create Codespace`
+Verify that you are using the `main` branch, the repository name `nsdf-fabric/Tutorial_2024_IEEE_VIS` and the dev container configuration `NSDF Tutorial - Session II`. Then click on `Create Codespace`
 
 <p align="center">
-    <img src="files/docs/codespaces.png" width="800">
+    <img src="Materials/files/docs/codespaces.png" width="800">
     <br>
     <em>Figure 2. Creating GitHub codespaces.</em>
 </p>
@@ -128,7 +128,7 @@ Verify that you are using the `main` branch, the repository name `TauferLab/ACM_
 > :bulb: **Note:** This process may take a couple of minutes.
 
 <p align="center">
-    <img src="files/docs/Creating_container.png" width="800">
+    <img src="Materials/files/docs/Creating_container.png" width="800">
     <br>
     <em>Figure 3. Setting up your Codespace.</em>
 </p>
@@ -136,7 +136,7 @@ Verify that you are using the `main` branch, the repository name `TauferLab/ACM_
 After creating the codespace, execute the tutorial notebook (Tutorial.ipynb)
 
 <p align="center">
-    <img src="files/docs/vscode.png" width="800">
+    <img src="Materials/files/docs/vscode.png" width="800">
     <br>
     <em>Figure 4. VS Code in GitHub Codespaces.</em>
 </p>
@@ -153,10 +153,10 @@ Now open the terminal and follow the next steps to deploy the tutorial in the Do
 
 ```
 # Clone the tutorial repository:
-git clone https://github.com/nsdf-fabric/NSDF_Tutorial.git
+git clone https://github.com/nsdf-fabric/Tutorial_2024_IEEE_VIS.git
 
 # Navigate to the tutorial directory:
-cd NSDF_Tutorial
+cd Tutorial_2024_IEEE_VIS/session II/Materials/
 
 # Launch the Docker environment:
 docker-compose up -d
@@ -182,6 +182,7 @@ This session provides detailed instructions for setting up and running the workf
 To build the docker image in your local machine:
 
 ```
+cd Materials
 docker build --platform linux/amd64 -t globalcomputinglab/somospie_openvisus .
 ```
 
@@ -197,7 +198,7 @@ To run:
 docker run -d -p 5000:5000 -p 8989:8989 --name tutorial --platform linux/amd64 globalcomputinglab/somospie_openvisus
 ```
 
-Follow this URL to run the Jupyter Notebook `Tutorial.ipynb`:
+Follow this URL to run the Jupyter Notebook `1.Tutorial.ipynb`:
 
 ```
 http://localhost:5000/
@@ -242,13 +243,20 @@ To install the dependencies in your local machine, use the following command:
 > :bulb: **Note:** Conda is mandatory in this step, use [this](https://www.anaconda.com/download/) link to install it
 
 ```
+cd Materials
 conda env create -f environment.yml
 ```
 
 Activate the virtual environment:
 
 ```
-conda activate somospie
+conda activate NSDF-Tutorial
+```
+
+Install GEOtiled library:
+```
+cd GEOtiled/geotiled
+pip install -e .
 ```
 
 Install OpenVisus dependencies:
@@ -305,7 +313,7 @@ SOMOSPIE Resources:
 Copyright (c) 2024, Global Computing Lab
 
 Catalog Comparison Tool is distributed under terms of the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) with LLVM Exceptions.
-See [LICENSE](LICENSE) for more details.
+See [LICENSE](Materials/LICENSE) for more details.
 
 ## Authors
 
