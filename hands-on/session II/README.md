@@ -113,7 +113,7 @@ Use your GitHub account to run this tutorial with GitHub Codespaces
 
 Please click the next button to open in GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/nsdf-fabric/Tutorial_2024_IEEE_VIS?devcontainer_path=.devcontainer/session+II/devcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/TauferLab/ACM_Summer_School_2024?devcontainer_path=.devcontainer/session+II/devcontainer.json)
 
 Now follow these steps to set up your virtual environment using GitHub codespaces:
 
@@ -153,10 +153,10 @@ Now open the terminal and follow the next steps to deploy the tutorial in the Do
 
 ```
 # Clone the tutorial repository:
-git clone https://github.com/nsdf-fabric/Tutorial_2024_IEEE_VIS.git
+git clone https://github.com/TauferLab/ACM_Summer_School_2024.git
 
 # Navigate to the tutorial directory:
-cd Tutorial_2024_IEEE_VIS/session II/Materials/
+cd ACM_Summer_School_2024/session II/Materials/
 
 # Launch the Docker environment:
 docker-compose up -d
