@@ -1,0 +1,52 @@
+<VRTDataset rasterXSize="29049" rasterYSize="36994">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["RGF93 v2 / CC42",GEOGCS["RGF93 v2",DATUM["Reseau_Geodesique_Francais_1993_v2",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","1312"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","9777"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["latitude_of_origin",42],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",41.25],PARAMETER["standard_parallel_2",42.75],PARAMETER["false_easting",1700000],PARAMETER["false_northing",1200000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","9822"]]</SRS>
+  <GeoTransform> -5.4078533341236291e+06,  2.5854610168660873e+01,  0.0000000000000000e+00,  4.8091258588440400e+06,  0.0000000000000000e+00, -2.5854610168660873e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1" subClass="VRTDerivedRasterBand">
+  <PixelFunctionType>average</PixelFunctionType>
+  <PixelFunctionLanguage>Python</PixelFunctionLanguage>
+  <PixelFunctionCode><![CDATA[
+import numpy as np
+
+def average(in_ar, out_ar, xoff, yoff, xsize, ysize, raster_xsize,raster_ysize, buf_radius, gt, **kwargs):
+    data = np.ma.array(in_ar, mask=np.equal(in_ar, -9999))
+    np.mean(data, axis=0, out=out_ar, dtype="float32")
+    mask = np.all(data.mask,axis = 0)
+    out_ar[mask] = -9999
+]]>
+  </PixelFunctionCode>
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">./Materials/files/tif_files/slope_tiles/tile_0000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14545" RasterYSize="18517" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14545" ySize="18517" />
+      <DstRect xOff="0" yOff="0" xSize="14545" ySize="18517" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">./Materials/files/tif_files/slope_tiles/tile_0001.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14534" RasterYSize="18517" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14534" ySize="18517" />
+      <DstRect xOff="14515" yOff="0" xSize="14534" ySize="18517" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">./Materials/files/tif_files/slope_tiles/tile_0002.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14545" RasterYSize="18507" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14545" ySize="18507" />
+      <DstRect xOff="0" yOff="18487" xSize="14545" ySize="18507" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">./Materials/files/tif_files/slope_tiles/tile_0003.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14534" RasterYSize="18507" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14534" ySize="18507" />
+      <DstRect xOff="14515" yOff="18487" xSize="14534" ySize="18507" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

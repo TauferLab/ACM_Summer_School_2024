@@ -1,0 +1,25 @@
+{
+  "name": "NSDF Tutorial - Session III",
+  "image": "globalcomputinglab/nsdf_tutorial:sessionIII",
+  "containerEnv": {
+    "PROJ_LIB": "/opt/conda/envs/NSDF-Tutorial/share/proj"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-vscode.cpptools",
+        "h5web.vscode-h5web",
+        "davidanson.vscode-markdownlint"
+      ],
+      "settings": {
+        "C_Cpp.default.cppStandard": "c++17",
+        "C_Cpp.default.cStandard": "c99",
+        "python.defaultInterpreterPath": "/opt/conda/envs/NSDF-Tutorial/bin/python",
+        "python.languageServer": "Default",
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  }
+}
