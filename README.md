@@ -10,6 +10,8 @@ Participants leave a deeper understanding of how NSDF services integrate into th
 
 ## Agenda
 
+**NOTE:** To access the tutorial material click in the individual session
+
 | **Session** | **Duration** |                                                               **Objective**                                                                |
 | :---------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
 |      [I](./hands-on/session%20II/README.md)      |   30 mins    |              This session begins with an overview of the NSDF and addresses users' challenges identified through interviews.               |
