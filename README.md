@@ -10,9 +10,13 @@ Participants leave a deeper understanding of how NSDF services integrate into th
 
 ## Agenda
 
+<ins>**NOTE:** To access the tutorial material click in the individual session</ins>
+
 | **Session** | **Duration** |                                                               **Objective**                                                                |
-| :---------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-|      [I](./hands-on/session%20II/README.md)      |   30 mins    |              This session begins with an overview of the NSDF and addresses users' challenges identified through interviews.               |
-|     [II](./hands-on/session%20II/README.md)      |    1 hour    | This session offers a hands-on experience with NSDF services, focusing on visualization and dashboard creation for Earth science datasets. |
-|     [III](./hands-on/session%20III/README.md)     |    1 hour    |            This session delves deeper into NSDF services tailored for the management and analysis of datasets exceeding 100TB.             |
-|     [IV](./hands-on/session%20III/README.md)      |   30 mins    |       This session concludes with an interactive Q&A, allowing attendees to discuss applications of NSDF in various research fields.       |
+| :----------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+|      <a href="https://github.com/TauferLab/ACM_Summer_School_2024/blob/main/hands-on/session%20II/README.md" target="_blank">Session I</a>      |   30 mins    |              This session begins with an overview of the NSDF and addresses users' challenges identified through interviews.               |
+|     <a href="https://github.com/TauferLab/ACM_Summer_School_2024/blob/main/hands-on/session%20II/README.md" target="_blank">Session II</a>      |    1 hour    | This session offers a hands-on experience with NSDF services, focusing on visualization and dashboard creation for Earth science datasets. |
+|     <a href="https://github.com/TauferLab/ACM_Summer_School_2024/blob/main/hands-on/session%20III/README.md" target="_blank">Session III</a>     |    1 hour    |            This session delves deeper into NSDF services tailored for the management and analysis of datasets exceeding 100TB.             |
+|     <a href="https://github.com/TauferLab/ACM_Summer_School_2024/blob/main/hands-on/session%20III/README.md" target="_blank">Session IV</a>      |   30 mins    |       This session concludes with an interactive Q&A, allowing attendees to discuss applications of NSDF in various research fields.       |
+
+
