@@ -105,6 +105,12 @@ Server:
 
 > :bulb: **Note:** The specific numbers in the output might vary based on your installation details and additional information may also appear.
 
+## Running the Tutorial with Codeanywhere
+
+Open this project on Codeanywhere, a free runtime environment and access to a complimentary copilot to enhance the coding experience. Codeanywhere integrates seamlessly with projects that include a devcontainer.json, enabling an even smoother and more efficient workflow. With just one click, contributors can have your project up and running effortlessly, making collaboration and participation simpler than ever.
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/TauferLab/ACM_Summer_School_2024/blob/c955b40e33d0ff152899b7370aa0eac5fedc9891/hands-on/session%20II/README.md)
+
 ## Running the Tutorial with GitHub Codespaces
 
 > :bulb: **Note:** To follow this tutorial using the GitHub Codespaces you must have a GitHub Account
