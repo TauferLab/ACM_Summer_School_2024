@@ -19,7 +19,9 @@ Participants leave a deeper understanding of how NSDF services integrate into th
 |     <a href="https://github.com/TauferLab/ACM_Summer_School_2024/blob/main/hands-on/session%20III/README.md" target="_blank">Session III</a>     |    1 hour    |            This session delves deeper into NSDF services tailored for the management and analysis of datasets exceeding 100TB.             |
 |     <a href="https://github.com/TauferLab/ACM_Summer_School_2024/blob/main/hands-on/session%20III/README.md" target="_blank">Session IV</a>      |   30 mins    |       This session concludes with an interactive Q&A, allowing attendees to discuss applications of NSDF in various research fields.       |
 
+## Acknowledged
 
+This material is based upon work supported by the National Science Foundation under Grant No. 2138811.
 
 
 <!-- Security scan triggered at 2025-09-01 20:12:57 -->
