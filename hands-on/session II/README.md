@@ -105,6 +105,30 @@ Server:
 
 > :bulb: **Note:** The specific numbers in the output might vary based on your installation details and additional information may also appear.
 
+### Running the Tutorial with Codeanywhere
+
+💡 Note: To follow this tutorial using Codeanywhere, you must have a Codeanywhere account.
+
+Use your Codeanywhere account to run this tutorial.
+
+Please click the button below to open the tutorial in Codeanywhere:
+
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/TauferLab/ACM_Summer_School_2024)
+
+Verify that you are using the main branch, the repository name nsdf-fabric/Tutorial_2024_IEEE_VIS, and the dev container configuration NSDF Tutorial - Session II. Then click on Create Workspace.
+
+<p align="center"> <img src="Materials/files/docs/codeanywhere_workspace.png" width="800"> <br> <em>Figure 2. Creating a Codeanywhere workspace.</em> </p>
+💡 Note: This process may take a couple of minutes.
+
+<p align="center"> <img src="Materials/files/docs/creating_codeanywhere_container.png" width="800"> <br> <em>Figure 3. Setting up your Codeanywhere environment.</em> </p>
+After creating the workspace, open and execute the tutorial notebook (Tutorial.ipynb).
+
+<p align="center"> <img src="Materials/files/docs/codeanywhere_vscode.png" width="800"> <br> <em>Figure 4. VS Code in Codeanywhere.</em> </p>
+
+
+Open this project in Codeanywhere's browser-based IDE for full development capabilities.
+
 ## Running the Tutorial with GitHub Codespaces
 
 > :bulb: **Note:** To follow this tutorial using the GitHub Codespaces you must have a GitHub Account
@@ -114,6 +138,7 @@ Use your GitHub account to run this tutorial with GitHub Codespaces
 Please click the next button to open in GitHub Codespaces
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/TauferLab/ACM_Summer_School_2024?devcontainer_path=.devcontainer/session+II/devcontainer.json)
+
 
 Now follow these steps to set up your virtual environment using GitHub codespaces:
 
