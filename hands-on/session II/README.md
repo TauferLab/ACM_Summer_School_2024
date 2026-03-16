@@ -117,7 +117,7 @@ Please click the next button to open in GitHub Codespaces
 
 Now follow these steps to set up your virtual environment using GitHub codespaces:
 
-Verify that you are using the `main` branch, the repository name `nsdf-fabric/Tutorial_2024_IEEE_VIS` and the dev container configuration `NSDF Tutorial - Session II`. Then click on `Create Codespace`
+Verify that you are using the `main` branch, the repository name `TauferLab/ACM_Summer_School_2024` and the dev container configuration `NSDF Tutorial - Session II`. Then click on `Create Codespace`
 
 <p align="center">
     <img src="Materials/files/docs/codespaces.png" width="800">
